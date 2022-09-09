@@ -1,5 +1,5 @@
 # Pricing Grid Mini-Project
-A mini-project made as a part of the udemy course: TailwindCSS from Scratch.
+A mini-project created as a part of the udemy course: TailwindCSS from Scratch.
 
 It is a design for product grids with multiple pricing tiers available for various SaaS offerings available and their respective features.
 Modifications are inspired from the lastpass product catalogue.

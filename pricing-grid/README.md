@@ -6,5 +6,5 @@ Modifications are inspired from the lastpass product catalogue.
 ## Made using:
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
 
-## Screenshots:
+## Screenshot:
 <img src="assets/screenshot.png"/>

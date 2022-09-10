@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image-gallery</title>
+</head>
+<body>
+    <!-- Global container -->
+    <div class="flex items-center justify-center min-h-screen bg-slate-300">
+        <!-- card container -->
+        <div class="bg-white p-6 m-1 space-y-10 shadow-2xl rounded-3xl md:p-28">
+            <!-- menu -->
+            <h1 class="text-3xl text-black">Meet Your 2022 NBA MVP Contenders</h1>
+            <div class="flex flex-col items-center justify-center space-y-3 text-base md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-start">
+                <!-- items -->
+                <div class="group">
+                    <a href="#">Schedule</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+
+                    </div>
+                </div>
+                <div class="group">
+                    <a href="#">Score</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        
+                    </div>
+                </div>
+                <div class="group">
+                    <a href="#">Standing</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        
+                    </div>
+                </div>
+                <div class="group">
+                    <a href="#">Stats</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        
+                    </div>
+                </div>
+                <div class="group">
+                    <a href="#">Teams</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        
+                    </div>
+                </div>
+                <div class="group">
+                    <a href="#">Players</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                    </div>
+                </div>
+            </div>
+            <!-- search-container -->
+            <div class="flex flex-col justify-between space-y-5 md:flex-col lg:flex-row lg:space-y-0">
+                <!-- Input and SVG Container -->
+                <div class="flex w-90">
+                    <div>
+                        <p class="text-md w-99">The NBA's Most Valuable Player is voted upon by a panel of 100 media members, who rank MVP candidates first through fifth.<br>
+                        First-place votes are worth 10 points, second-place votes are worth seven points, third-place votes are worth five points,<br> fourth-place votes are worth three points and fifth-place votes are worth one point.</p>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <!-- Upload button -->
+                <div class="flex flex-row gap-4 justify-center md:justify-right">
+                    <div><img src="https://img.icons8.com/ios-glyphs/30/1DA1F2/reddit.png" class="hover:grayscale"/></div>
+                    <div><img src="https://img.icons8.com/ios-glyphs/30/1DA1F2/whatsapp.png" class="hover:grayscale"/></div>
+                    <div><img src="https://img.icons8.com/ios-glyphs/30/1DA1F2/twitter--v1.png" class="hover:grayscale"/></div>
+                    <div><img src="https://img.icons8.com/ios-glyphs/30/1DA1F2/facebook-new.png" class="hover:grayscale"/></div>
+                </div>
+            </div>
+            <!-- Gallery Container -->
+            <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-6">
+                <!-- Image 1 -->
+                <div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/nikola-jokic.jpg" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Nikola Jokic</p>
+                                <p class="text-xs">NBA MVP 2021</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/denver-nuggets.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Nikola Jokic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/joel-embiid.jpg" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Joel Embiid</p>
+                                <p class="text-xs">4x NBA All-Star (2018-2021)</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/philly-76ers.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Joel Embiid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/giannis.jpg" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md">Giannis Antetekuonmpo</p>
+                                <p class="text-xs">NBA Champion, NBA Finals MVP 2021</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/milwaukee-bucks.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md">Giannis Antetekuonmpo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/devin-booker.png" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Devin Booker</p>
+                                <p class="text-xs">2x NBA All-Star (2020-2021)</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/phoenix-suns.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Devin Booker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/luka-doncic.png" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Luka Doncic</p>
+                                <p class="text-xs">2x NBA All-Star (2020-2021)</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/dallas-mavericks.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Luka Doncic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/jayson-tatum.png" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Jayson Tatum</p>
+                                <p class="text-xs">2x NBA All-Star (2020-2021)</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/boston-celtics.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Jayson Tatum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/ja-morant.png" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Ja Morant</p>
+                                <p class="text-xs">NBA Rookie of the Year 2020</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/memphis-grizzlies.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Ja Morant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="relative group hover:saturate-150 hover:scale-105">
+                    <img src="assets/steph-curry.png" alt="" class="w-100"/>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-70">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-lg">Stephen Curry</p>
+                                <p class="text-xs">3x NBA Champion, 2x NBA MVP, 2x NBA Scoring Champion</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="assets/golden-state-warriors.png" alt="" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black bg-opacity-50 opacity-100 group-hover:opacity-0">
+                        <div class="flex justify-between width-full">
+                            <div class="font-normal">
+                                <p class="text-md ">Stephen Curry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

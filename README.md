@@ -2,7 +2,7 @@
 Tailwind mini-projects from the course: TailwindCSS from scratch
 
 ## Description:
-These mini-projects are part of some frontend web-components of major websites that are functioning nowadays.
+These mini-projects are part of some frontend web-components that are frequently used in product based websites, service providers or social media sites.
 
 It features the following:
 + Image Gallery
